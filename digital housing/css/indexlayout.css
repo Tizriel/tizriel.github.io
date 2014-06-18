@@ -1,0 +1,82 @@
+/*CSS*/
+
+html, body{
+    background: url('../img/background.png') no-repeat center center fixed;
+     -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: 100% 100%;
+    background-color: #0077c2;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#kids img{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 1330px;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+  
+}
+
+#adults img{
+    position: absolute;
+    margin-top: 336px;
+    margin-left: 1330px;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+  
+}
+
+#book img{
+    height: 180px;   
+    width: 300px;
+}
+
+#book {
+	background: url("../img/book.png") no-repeat;
+	position: absolute;
+	width: 830px;
+	height: 260px;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -170px;
+}
+
+#pages section {
+	background: url("../img/paper.png") no-repeat;
+	display: block;
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	left: 415px;
+	top: 5px;
+	overflow: hidden;
+}
+
+#pages section>div {
+		display: block;
+		width: 400px;
+		height: 250px;
+		font-size: 12px;
+}
+
+#pages section p,
+#pages section h2 {
+		padding: 3px 35px;
+		line-height: 1.4em;
+		text-align: justify;
+}
+
+#pages section h2{
+		margin: 15px 0 10px;
+}
+
+#pageflip-canvas {
+	position: absolute;
+	z-index: 100;
+}
