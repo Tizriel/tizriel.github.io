@@ -1,0 +1,184 @@
+ /* Layout Stylesheet */ 
+
+ body{
+ margin: 0px;
+ padding: 0px; 
+ background: url(leopardbg2.jpg) top right;
+ font-family: Helvetica;
+ }	 
+
+ #leopard{
+ position: relative;
+ top: 15px;
+ text-align: center;
+ }
+ 
+ #top{
+ position: relative;
+ top: 0px;
+ height: 120px;
+ left: 0px;
+ border: none;
+ }
+ 
+ #links{
+ position:relative;
+ left: 1.6%;
+ width: 97%;
+ top: -17.5px;
+ height: 67px;
+ }
+ 
+ /*
+ .links{
+ border-right: 1px solid #000000; 
+ }
+ */
+ 
+ #contents1{
+ position: relative;
+ top: -20px;
+ height: 730px;
+ border-top: 2px solid #000000;
+ background-color: #FFFFFF;
+ color: #000000;
+ text-align: center;
+ padding: 20px;
+ }
+ 
+ #contents2{
+ position: relative;
+ top: -20px;
+ height: 730px;
+ border-top: 2px solid #000000;
+ background-color: #FFFFFF;
+ color: #000000;
+ text-align: center;
+ padding: 20px;
+ }
+ 
+ #container {
+ position: relative;
+ left: 16%;
+ width: 68%;
+ height: 880px;
+ background-color: #EE7600;
+ color: #FFFFFF;
+ }
+
+ #container2 {
+ position: relative;
+ left: 16%;
+ width: 68%;
+ height: 880px;
+ background-color: #EE7600;
+ color: #FFFFFF;
+ }
+ 
+ #elist{
+ position: relative;
+ top: 5%;
+ }
+ 
+ #roundtop { 
+ background: url(tr2.jpg) no-repeat top right; 
+ }
+
+ img.corner {
+ width: 15px;
+ height: 15px;
+ border: none;
+ display: block !important;
+ }
+
+ .valid{
+ position: absolute;
+ top: 845px;
+ left: 40%;
+ padding: 0px;
+ }
+ 
+  .valid2{
+ position: absolute;
+ top: 845px;
+ left: 40%;
+ padding: 0px;
+ }
+ 
+ #img{
+  position: relative;
+  top: 5%;
+  left: 12%;
+ }
+ 
+  #img2{
+  position: relative;
+  top: 0px;
+  left: 5%;
+ }
+ 
+ #marquee {
+ direction: left;
+ }
+ 
+/*----------------------------------------------------------------------------------*/
+ 
+ 
+#home a{
+ display: block;
+ height: 61px;
+ width: 131px;
+ background: transparent url(home.jpg) no-repeat; 
+ }
+ 
+ #home a:hover {
+ background-image: url(home2.jpg);
+ } 
+ 
+ #male a{
+ display: block;
+ height: 64px;
+ width: 130px;
+ background: transparent url(male.jpg) no-repeat; 
+ }
+
+ #male a:hover {
+ background-image: url(male2.jpg);
+ } 
+ 
+ #female a{
+ display: block;
+ left: 0px;
+ height: 66px;
+ width: 166px;
+ background: transparent url(female.jpg) no-repeat; 
+ }
+ 
+ #female a:hover {
+ background-image: url(female2.jpg);
+ } 
+ 
+ #mailinglist a{
+ display: block;
+ left: 0px;
+ height: 64px;
+ width: 250px;
+ background: transparent url(mailinglist.jpg) no-repeat; 
+ }
+ 
+ #mailinglist a:hover {
+ background-image: url(mailinglist2.jpg);
+ } 
+
+ #login a{
+ display: block;
+ left: 0px;
+ top: -100px;
+ height: 65px;
+ width: 135px;
+ background: transparent url(login.jpg) no-repeat; 
+ }
+ 
+ #login a:hover {
+ background-image: url(login2.jpg);
+ } 
